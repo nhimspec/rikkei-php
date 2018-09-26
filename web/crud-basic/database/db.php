@@ -2,10 +2,10 @@
 class DB
 {
 
-	const DB_HOST = 'localhost';
-	const DB_USERNAME = 'root';
-	const DB_PASSWORD = 'root';
-	const DB_NAME = 'training_php';
+	const DB_HOST = 'us-cdbr-iron-east-01.cleardb.net';
+	const DB_USERNAME = 'b7542d3c6397f7';
+	const DB_PASSWORD = '86517cdd';
+	const DB_NAME = 'heroku_b39dc8403726cd5';
 
 	private static $conn;
 	
