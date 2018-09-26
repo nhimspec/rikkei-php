@@ -49,7 +49,7 @@
 <html>
 <head>
 	<title>Crud Basic</title>
-	<link rel="stylesheet" type="text/css" href="./assets/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/library/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
 <div class="container mt-4">

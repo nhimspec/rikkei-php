@@ -11,7 +11,7 @@
 <html>
 <head>
 	<title>Crud Basic</title>
-	<link rel="stylesheet" type="text/css" href="./assets/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./assets/library/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
 <div class="container mt-4">
@@ -56,7 +56,7 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript" src="./assets/vendor/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/library/jquery/jquery.min.js"></script>
 <script type="text/javascript" src="./assets/js/script.js"></script>
 </body>
 </html>
