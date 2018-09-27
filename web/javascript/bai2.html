@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Training Brse</title>
+</head>
+<body>
+<h3>Bài 2:</h3>
+<p>Chào nhiều lần</p>
+<button onclick="doExercise()">Thực Thi</button>
+<p id="result"></p>
+<script type="text/javascript">
+	function doExercise(){
+		var ten = window.prompt("Bạn tên là gì");
+		var numb = window.prompt("Nhập số bất kỳ <10: ")
+		var result = "";
+		if( numb < 10){
+			for(a = 0; a < numb; a++){
+				result += "- Xin chào bạn " + ten + " Lần thứ " + (a+1) + "<br>";
+			}
+			document.getElementById('result').innerHTML = result;
+		} else {
+			alert('Tren 10 roi ban');
+		}
+	}
+</script>
+</body>
+</html>

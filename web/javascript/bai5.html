@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Training Brse</title>
+</head>
+<body>
+<h3>Bài 5:</h3>
+<p>Tạo danh sách những người vay tiền, và in ra màn hình:</p>
+<button onclick="doExercise()">Thực Thi</button>
+<p id="result"></p>
+<script type="text/javascript">
+	function doExercise(){
+		var danhSach = []; // Khởi tạo mảng Danh Sách
+		var soNguoiVay = prompt("Nhập số người vay: ");
+
+		// Tạo Danh sách người vay tiền
+		for (var i = 0; i < soNguoiVay; i++) {
+		    danhSach[i] = new Object(); // Khởi tạo đối tượng cho phần tử mảng
+		    danhSach[i].username = prompt("Nhập tên người vay: ");
+		    danhSach[i].tien_vay = prompt("Nhập số tiền vay: ");
+		}
+		console.log(danhSach);
+
+		var result = "";
+
+		// In danh sách những người vay tiền
+		result += "Danh sách " + danhSach.length + " người vay " + '<br>';
+		danhSach.forEach(function(nguoi){
+		    result += " Tên người vay: " + nguoi.username + '<br>';
+		    result += " Số tiền vay: " + nguoi.tien_vay + '<br>';    
+		    result += "====================================" + '<br>';
+		});
+
+		document.getElementById('result').innerHTML = result;
+	}
+</script>
+</body>
+</html>

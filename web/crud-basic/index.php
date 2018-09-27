@@ -10,6 +10,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Crud Basic</title>
 	<link rel="stylesheet" type="text/css" href="./assets/library/bootstrap/css/bootstrap.min.css">
 </head>

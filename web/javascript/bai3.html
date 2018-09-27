@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Training Brse</title>
+</head>
+<body>
+<h3>Bài 3:</h3>
+<p>Nhập vào một số nguyên gồm 2 chữ số, tính tổng 2 chữ số đó</p>
+<button onclick="doExercise()">Thực Thi</button>
+<p id="result"></p>
+<script type="text/javascript">
+	function doExercise(){
+		var numb = window.prompt("Nhập số nguyên (9 < numb < 100): ");
+		if(numb < 100 && numb > 9){
+			var KetQua = Math.floor(numb/10) + (numb % 10);
+			document.getElementById('result').innerHTML = "Bạn nhập " + numb + " ==> Kết quả là " + (Math.floor(numb/10)) + " " + " + " + (numb % 10) + " = "  + KetQua;
+		} else {
+			alert('Ban nhap tren 99 hoac duoi 10 roi!!');
+		}
+	}
+</script>
+</body>
+</html>
